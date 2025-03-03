@@ -4,7 +4,7 @@ import DeleteButton from "./DeleteButton";
 async function UsersList() {
   const users = await fetchUsers();
   return (
-    <div className="mt-4">
+    <div className="max-w-lg">
       {users.length ? (
         <div>
           {users.map(user => {

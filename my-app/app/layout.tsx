@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import type {Metadata} from "next";
-import {Inter, Roboto} from "next/font/google";
+import {Roboto} from "next/font/google";
 
 // Set fonts
 // const inter = Inter({subsets: ["latin"]});
